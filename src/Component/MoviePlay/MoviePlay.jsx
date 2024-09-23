@@ -24,7 +24,7 @@ const MoviePlay = () => {
   }, []);
 
   useEffect(() => {
-    fetch("https://movieforkhapi.vercel.app")
+    fetch("https://samon-movieforkh-api.vercel.app")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
